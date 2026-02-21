@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yoberry — Frozen Yogurt</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff8f5;
+      color: #333;
+    }
+
+    header {
+      background: #ff6b8a;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      color: #ff6b8a;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ffd6e0;
+      padding-bottom: 0.4rem;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      font-size: 1rem;
+    }
+
+    .card .emoji {
+      font-size: 2rem;
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+
+    .steps {
+      list-style: none;
+      counter-reset: steps;
+    }
+
+    .steps li {
+      counter-increment: steps;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+      font-size: 1.05rem;
+    }
+
+    .steps li::before {
+      content: counter(steps);
+      background: #ff6b8a;
+      color: white;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+
+    footer {
+      background: #ff6b8a;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍧 Yoberry</h1>
+    <p>Your favorite frozen yogurt destination!</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Our Flavors</h2>
+      <div class="card-grid">
+        <div class="card"><span class="emoji">🍦</span>Original Tart</div>
+        <div class="card"><span class="emoji">🍓</span>Strawberry</div>
+        <div class="card"><span class="emoji">🥭</span>Mango</div>
+        <div class="card"><span class="emoji">🍫</span>Chocolate</div>
+        <div class="card"><span class="emoji">🍨</span>Vanilla Bean</div>
+        <div class="card"><span class="emoji">🥥</span>Coconut</div>
+        <div class="card"><span class="emoji">🍵</span>Matcha Green Tea</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Toppings Bar</h2>
+      <div class="card-grid">
+        <div class="card"><span class="emoji">🍓</span>Fresh Fruit</div>
+        <div class="card"><span class="emoji">🌾</span>Granola</div>
+        <div class="card"><span class="emoji">🍡</span>Mochi Bites</div>
+        <div class="card"><span class="emoji">🐻</span>Gummy Bears</div>
+        <div class="card"><span class="emoji">🎉</span>Sprinkles</div>
+        <div class="card"><span class="emoji">🍫</span>Brownie Bites</div>
+        <div class="card"><span class="emoji">🍯</span>Honey Drizzle</div>
+        <div class="card"><span class="emoji">🤎</span>Nutella Swirl</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>How It Works</h2>
+      <ol class="steps">
+        <li>Grab a cup</li>
+        <li>Swirl your favorite frozen yogurt flavor(s)</li>
+        <li>Top it off with your choice of toppings</li>
+        <li>Weigh your cup at the register — you only pay for what you take!</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Hours &amp; Location</h2>
+      <p>📅 Open daily <strong>11am – 10pm</strong></p>
+      <p style="margin-top:0.5rem">📍 Find your nearest Yoberry shop and come enjoy a swirl today!</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Yoberry Frozen Yogurt. Made with 🍧 and love.</p>
+  </footer>
+
+</body>
+</html>
