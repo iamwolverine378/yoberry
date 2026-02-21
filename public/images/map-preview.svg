@@ -1,0 +1,40 @@
+﻿<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6f3fb"/>
+      <stop offset="100%" stop-color="#e9e4f2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g)"/>
+  <g opacity="0.16" stroke="#472868" stroke-width="2" fill="none">
+    <path d="M40 110h1120"/>
+    <path d="M40 220h1120"/>
+    <path d="M40 330h1120"/>
+    <path d="M40 440h1120"/>
+    <path d="M40 550h1120"/>
+    <path d="M40 660h1120"/>
+    <path d="M40 770h1120"/>
+    <path d="M120 60v780"/>
+    <path d="M280 60v780"/>
+    <path d="M440 60v780"/>
+    <path d="M600 60v780"/>
+    <path d="M760 60v780"/>
+    <path d="M920 60v780"/>
+    <path d="M1080 60v780"/>
+  </g>
+  <g>
+    <circle cx="350" cy="300" r="26" fill="#472868"/>
+    <circle cx="560" cy="430" r="26" fill="#7b51a0"/>
+    <circle cx="790" cy="250" r="26" fill="#8da64e"/>
+    <circle cx="910" cy="520" r="26" fill="#472868"/>
+    <circle cx="260" cy="580" r="26" fill="#8da64e"/>
+  </g>
+  <g stroke="#472868" stroke-width="8" stroke-linecap="round" opacity="0.4">
+    <path d="M350 300L560 430"/>
+    <path d="M560 430L910 520"/>
+    <path d="M560 430L260 580"/>
+    <path d="M560 430L790 250"/>
+  </g>
+  <rect x="58" y="64" width="350" height="92" rx="20" fill="#472868"/>
+  <text x="84" y="122" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">YoBerry Map</text>
+</svg>

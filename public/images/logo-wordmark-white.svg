@@ -1,0 +1,12 @@
+﻿<svg width="560" height="170" viewBox="0 0 560 170" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="170" fill="none"/>
+  <g transform="translate(12,20)">
+    <g transform="translate(0,4)">
+      <path d="M34 42c18 0 34 16 34 34h-16c0-10-8-18-18-18z" fill="#8DA64E"/>
+      <path d="M82 34c17 0 30 13 30 30-16 0-30-13-30-30z" fill="#8DA64E"/>
+      <circle cx="58" cy="94" r="32" fill="none" stroke="#9F72CF" stroke-width="14"/>
+    </g>
+    <text x="118" y="86" font-family="Arial, sans-serif" font-weight="700" font-size="72" fill="#FFFFFF">YoBerry</text>
+    <text x="120" y="126" font-family="Arial, sans-serif" font-weight="700" font-size="36" fill="#FFFFFF">frozen yogurt</text>
+  </g>
+</svg>
